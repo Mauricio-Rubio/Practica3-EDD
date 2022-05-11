@@ -407,7 +407,7 @@ public class ArbolBinarioBusqueda<T extends Comparable<T>>
   Lista<T> colaDFS = new Lista<T>();
 
   // Override
-  public String ptoString() {
+  public String toString() {
     while ((!colaDFS.contains(ultimoDerecho(this.raiz).get()))) {
       // System.out.println("Ultimo Der" +ultimoDerecho(this.raiz).get());
       inOrderDFS(raiz.izquierdo, raiz, raiz.derecho);
