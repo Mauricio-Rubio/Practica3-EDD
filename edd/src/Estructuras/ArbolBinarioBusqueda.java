@@ -385,7 +385,7 @@ public class ArbolBinarioBusqueda<T extends Comparable<T>>
      */
     Lista<T> colaDFS = new Lista<T>();
    // Override
-    public String toString(){
+    public String ptoString(){
       //LLevamos el algoritmo hasta tener al final de la lista al elemnto mas grande de todo el arbol
       while((!colaDFS.contains(ultimoDerecho(this.raiz).get()))){
        // System.out.println("Ultimo Der" +ultimoDerecho(this.raiz).get());

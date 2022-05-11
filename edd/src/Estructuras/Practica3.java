@@ -618,9 +618,41 @@ public class Practica3 {
 
   public static void main(String[] args) {
     Scanner escaner = new Scanner(System.in);
+    Lista<Integer> listu = new Lista<Integer>();
+     for (int i = 1; i <10; i++) {
+      listu.add(i);
+    }
+     ArbolBinarioBusqueda <Integer> miArbol = new ArbolBinarioBusqueda<Integer>(listu,false);
+    ArbolBinarioBusqueda<Integer> ab= new ArbolBinarioBusqueda<Integer>();
+    //ab.add(35);
+     for (int i = 0; i < 10; i++) {
+      ab.add(i);
+    }
     
+  // for(int j=0; j< 
+   // miArbol.add(100);
+   
+    /*ab.add(120);
+    ab.add(11);
+    ab.add(13);
+    ab.add(24);
+    ab.add(89);
+     ab.add(0);
+    ab.add(-9);
+    ab.add(23);
+    ab.add(1);
+    ab.add(12);
+    ab.add(356);
+    ab.add(98);
+    ab.add(123);
+    ab.add(357);
+    ab.add(-9);
+    ab.add(121);*/
+    System.out.println(ab);
+   System.out.println( miArbol.convertBST(ab));
+    //System.out.println(ab);
     
-    //valido = false;
+   /* //valido = false;
     String cadena = "";
     boolean valido = true;
     do {
@@ -669,7 +701,8 @@ Lista<Integer> listu = new Lista<Integer>();
     for (int i = -7; i < 0; i++) {
       listu.add(i);
     }
-
+    ArbolBinarioBusqueda <Integer> miArbol = new ArbolBinarioBusqueda<Integer>(listu,false);
+    System.out.println(miArbol);
     /*if (args.length > 1) {
       pedirDatosSuma(args);
     } else {
@@ -687,7 +720,7 @@ Lista<Integer> listu = new Lista<Integer>();
     }
 
     
-    ArbolBinarioBusqueda <Integer> miArbol = new ArbolBinarioBusqueda<Integer>();
+    
     //System.out.println(miArbol);
    // ArbolBinario arbolix = ArbolBinario(listu);
     
@@ -704,6 +737,14 @@ Lista<Integer> listu = new Lista<Integer>();
     ab.add(356);
     ab.add(98);
     ab.add(120);
+     ab.add(11);
+    ab.add(13);
+    ab.add(24);
+    ab.add(89);
+    ab.add(123);
+    ab.add(357);
+    ab.add(-9);
+    ab.add(121);
     
 
     /*ab.insert(ab.raiz, 43);
