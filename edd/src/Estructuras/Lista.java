@@ -160,6 +160,21 @@ public class Lista<T> implements Collection<T> {
   }
 
   /**
+   * Cortar la lista hasta el elemento situado en el indice, el cual tambien es borrado
+   * @param indice
+   * @return Lista
+   */
+  public Lista trim(int indice){
+    Iterator<T> iterador = this.iterator();
+    //System.out.println(iterador.next());
+    for (int i = 0; i <= indice; i++) {
+      if(iterador.hasNext())
+      this.delete(iterador.next());
+    }
+    return this;
+  }
+
+  /**
    * Elimina un elemento de la lista.
    *
    * @param elemento el elemento a eliminar.

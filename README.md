@@ -1,10 +1,7 @@
-# PrograIntroGit
-## Este es un subtitulo
+# Practica Numero 3
 
-
-Ya vine a arreglar tu README!!!!!
-
-
-[Tutorial ->](https://github.com/UlmoMacias/tutorial-github-es)
-
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## Temario: 
+#### Ordenamientos
+#### Backtracking
+#### Arboles Binarios
+#### Arboles Binarios de busqueda
